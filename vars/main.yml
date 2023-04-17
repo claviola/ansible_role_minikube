@@ -12,9 +12,6 @@ minikube_mirror: 'https://github.com/kubernetes/minikube/releases/download/v{{ m
 # The OS of the Minikube redistributable
 minikube_os: 'linux'
 
-# The CPU architecture of the Minikube redistributable
-minikube_architecture: 'amd64'
-
 # File name of the Minikube redistributable file
 minikube_redis_filename: 'minikube-{{ minikube_os }}-{{ minikube_architecture }}'
 
